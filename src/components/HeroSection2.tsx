@@ -2,22 +2,23 @@ import React from "react";
 
 export const HeroSection2 = () => {
   return (
-    <div className="w-full relative gap-y-6 flex flex-col mt-10">
+    <div className="w-full relative gap-y-6 flex flex-col mt-40">
       {/* Part1 */}
+
       <div className="w-full gap-y-4  flex flex-wrap  justify-evenly items-center">
-        <div className="max-w-lg justify-center items-center min-w-sm gap-y-4 flex flex-col w-full">
+        <div className="md:max-w-lg lg:max-w-xl px-5 sm:max-w-md max-w-auto  justify-center items-center  gap-y-4  flex flex-col w-full">
           <img
             src="/public/images/Tomorrow should be better than today.png"
             alt="hero2"
-            className="sm:w-md w-80 md:w-full  object-cover"
+            className="  md:w-full  object-cover"
           />
 
-          <span className="  sm:w-md w-80 md:w-full  ">
+          <span className="   md:w-full  ">
             We are a team of strategists, designers communicators, researchers.
             Togeather, we belive that progress only happens when you refuse to
             play things safe.
           </span>
-          <div className="sm:w-md w-80 gap-x-2 md:w-full flex justify-start items-center">
+          <div className=" gap-x-2 w-full flex justify-start items-center">
             <span className="  ">Read more</span>
             <svg
               className="mt-2"
@@ -33,12 +34,12 @@ export const HeroSection2 = () => {
             </svg>
           </div>
         </div>
-        <div className=" max-w-lg flex justify-center items-center w-full">
+        <div className=" md:max-w-lg justify-center items-center max-w-sm flex  w-full">
           <div className="relative">
             <img
               src="/public/images/person.png"
               alt="hero2"
-              className=" max-w-60 sm:max-w-sm w-full object-cover"
+              className="max-w-60 md:max-w-sm md:w-full  object-cover"
             />
             <svg
               className="absolute md:h-40 h-20  -z-10 top-5 -right-10 md:-right-20"
@@ -107,8 +108,8 @@ export const HeroSection2 = () => {
         </defs>
       </svg>
       {/* part2 */}
-      <div className="w-full gap-y-4  flex flex-wrap-reverse  justify-evenly items-center">
-        <div className=" max-w-lg flex justify-center items-center w-full">
+      <div className="w-full gap-y-4  flex flex-wrap-reverse justify-evenly items-center">
+        <div className="md:max-w-lg justify-center items-center   max-w-sm sm:max-w-md px-5 gap-y-4 flex flex-col w-full">
           <div className="relative">
             <svg
               className="absolute md:h-40 sm:h-30 h-20 top-0 md:-top-5  sm:bottom-2 left-0 ri md:-left-10 -z-10"
@@ -125,7 +126,7 @@ export const HeroSection2 = () => {
             <img
               src="/public/images/person2.png"
               alt="hero2"
-              className=" max-w-60 sm:max-w-sm w-full object-cover"
+              className=" max-w-60 md:max-w-sm md:w-full w-full object-cover"
             />
             <svg
               className="absolute md:h-40 sm:h-30 h-20 bottom-0 md:-bottom-5  sm:bottom-2 right-0 ri md:-right-10"
@@ -142,20 +143,20 @@ export const HeroSection2 = () => {
           </div>
         </div>
 
-        <div className="max-w-lg justify-center items-center min-w-sm gap-y-4 flex flex-col w-full">
+        <div className="md:max-w-lg lg:max-w-xl px-5 sm:max-w-md max-w-auto justify-center items-center  gap-y-4  flex flex-col w-full">
           <img
             src="/public/images/See how we can help you progress.png"
             alt="hero2"
-            className="sm:w-md w-80 md:w-full  object-cover"
+            className=" md:w-full  object-cover"
           />
 
-          <span className="  sm:w-md w-80 md:w-full  ">
+          <span className="   md:w-full  ">
             We are a team of strategists, designers communicators, researchers.
             Togeather, we belive that progress only happens when you refuse to
             play things safe.
           </span>
-          <div className="sm:w-md w-80 gap-x-2 md:w-full flex justify-start items-center">
-            <span className="  ">Read more</span>
+          <div className=" gap-x-2 w-full flex justify-start items-center">
+            <span className="  w-full">Read more</span>
             <svg
               className="mt-2"
               height="5"

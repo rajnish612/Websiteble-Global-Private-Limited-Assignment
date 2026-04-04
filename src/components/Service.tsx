@@ -2,10 +2,10 @@ import React from "react";
 
 const Service = () => {
   return (
-    <div className="w-full relative gap-y-6 flex flex-col mt-20">
+    <div className="w-full relative   gap-y-6 flex flex-col mt-40">
       {/* part1 */}
-      <div className="w-full max-w-[90%] mx-auto  gap-y-4  grid grid-cols-1 md:grid-cols-2  items-center">
-        <div className="flex">
+      <div className="w-full justify-center sm:max-w-[90%] max-w-[80%] mx-auto  flex flex-wrap  items-center">
+        <div className="flex min-w-60 max-w-[50%]  justify-center items-center w-full">
           <div className="   items-center gap-y-4 flex flex-col w-full">
             <img
               src="/public/images/heading.png"
@@ -14,10 +14,10 @@ const Service = () => {
             />
           </div>
         </div>
-        <div className="   relative  flex justify-center items-center w-full">
+        <div className="max-w-[50%] min-w-60 h-fit  bg-amber-400   relative  flex justify-center items-center w-full">
           {/*curve line svg */}
-          <svg
-            className="  "
+          {/* <svg
+            className="absolute  -right-full"
             viewBox="0 0 1483 654"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -66,12 +66,73 @@ const Service = () => {
                 />
               </filter>
             </defs>
-          </svg>
+          </svg> */}
         </div>
       </div>
-      <div className="max-w-[90%] w-full mx-auto">
-        <div className="border-t border-slate-100 w-full md:grid-col-3">
-          <span>Office of multiple interest content</span>
+      {/*Services */}
+      <div className="sm:max-w-[90%]   flex-col gap-y-6   justify-center items-center flex w-full mx-auto">
+        <div className="border-t pt-7 px-5 gap-y-4 flex-wrap flex justify-between border-slate-100 w-full md:grid-col-3">
+          <span className="max-w-xs w-full">
+            Office of multiple interest content
+          </span>{" "}
+          <img
+            className="w-xs sm:max-w-sm"
+            src="/public/images/Colaborative & partnership.png"
+          />
+          <svg
+            width="145"
+            height="8"
+            viewBox="0 0 145 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M144.354 4.03556C144.549 3.8403 144.549 3.52372 144.354 3.32845L141.172 0.146473C140.976 -0.0487893 140.66 -0.0487893 140.464 0.146473C140.269 0.341735 140.269 0.658318 140.464 0.85358L143.293 3.68201L140.464 6.51043C140.269 6.7057 140.269 7.02228 140.464 7.21754C140.66 7.4128 140.976 7.4128 141.172 7.21754L144.354 4.03556ZM0 3.68201V4.18201H144V3.68201V3.18201H0V3.68201Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div className="border-t gap-y-4 pt-7 px-5 flex flex-wrap  justify-between border-slate-100 w-full md:grid-col-3">
+          <span className="max-w-xs w-full">
+            The hanger US Air force digital experimental
+          </span>
+          <img
+            className="w-xs sm:max-w-sm"
+            src="/public/images/We talk about our weight.png"
+          />
+          <svg
+            width="145"
+            height="8"
+            viewBox="0 0 145 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M144.354 4.03556C144.549 3.8403 144.549 3.52372 144.354 3.32845L141.172 0.146473C140.976 -0.0487893 140.66 -0.0487893 140.464 0.146473C140.269 0.341735 140.269 0.658318 140.464 0.85358L143.293 3.68201L140.464 6.51043C140.269 6.7057 140.269 7.02228 140.464 7.21754C140.66 7.4128 140.976 7.4128 141.172 7.21754L144.354 4.03556ZM0 3.68201V4.18201H144V3.68201V3.18201H0V3.68201Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div className="border-t gap-y-4 pt-7 px-5 flex-wrap flex justify-between border-slate-100 w-full md:grid-col-3">
+          <span className="max-w-xs w-full">
+            Office of multiple interest content
+          </span>
+          <img
+            className="w-xs sm:max-w-sm"
+            src="/public/images/Colaborative & partnership.png"
+          />
+          <svg
+            width="145"
+            height="8"
+            viewBox="0 0 145 8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M144.354 4.03556C144.549 3.8403 144.549 3.52372 144.354 3.32845L141.172 0.146473C140.976 -0.0487893 140.66 -0.0487893 140.464 0.146473C140.269 0.341735 140.269 0.658318 140.464 0.85358L143.293 3.68201L140.464 6.51043C140.269 6.7057 140.269 7.02228 140.464 7.21754C140.66 7.4128 140.976 7.4128 141.172 7.21754L144.354 4.03556ZM0 3.68201V4.18201H144V3.68201V3.18201H0V3.68201Z"
+              fill="black"
+            />
+          </svg>
         </div>
       </div>
     </div>

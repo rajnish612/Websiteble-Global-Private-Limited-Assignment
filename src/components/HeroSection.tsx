@@ -1,23 +1,8 @@
 import React from "react";
 
-const images = [
-  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGhpbmtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
-  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGhpbmtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
-  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGhpbmtlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
-];
-export const ZigZag = () => {
-  return (
-    <>
-      <span className="absolute -bottom-0  w-full bg-yellow-400 h-1 left-0 " />
-      <span className="absolute -bottom-1  w-full bg-yellow-400 -rotate-5 h-[2px] left-0 " />
-      <span className="absolute -bottom-2  w-full bg-yellow-400 rotate-4 h-[2px] left-0 " />
-      <span className="absolute -bottom-3  w-full bg-yellow-400 -rotate-4 h-[2px] left-0 " />
-    </>
-  );
-};
 export const HeroSection: React.FC = () => {
   return (
-    <div className="flex justify-center  mt-10 items-center flex-col">
+    <div className="flex justify-center  mt-20 items-center flex-col">
       <div
         style={{ fontFamily: "Gerbil" }}
         className="flex relative md:text-7xl w-sm sm:w-md md:w-full px-5  max-w-2xl text-center  font-bold gap-x-4"
@@ -71,20 +56,52 @@ export const HeroSection: React.FC = () => {
       </div>
       <div className="w-full mt-30 flex gap-y-25  items-center flex-wrap md:justify-around gap-x-10 md:gap-x-0 justify-center px-5">
         <div className="flex ">
-          <div className="w-40.5 h-40.5 bg-amber-300 rounded-full" />
-          <div className="w-40.5 h-40.5 relative -top-10 right-5 outline-2 outline-white bg-amber-300 rounded-full" />
+          <img
+            src="/images/person.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5 bg-amber-300 rounded-full object-cover"
+          />
+          <img
+            src="/images/person2.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5 relative -top-10 right-15 outline-5 outline-white bg-amber-300 rounded-full object-cover"
+          />
+        </div>
+        <div className="flex sm:pt-20 pt-0"> 
+          <img
+            src="/images/person2.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5 relative -top-30 left-6 bg-amber-300 rounded-full object-cover"
+          />
+          <img
+            src="/images/person.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5  outline-2 outline-white bg-amber-300 rounded-full object-cover"
+          />
         </div>
         <div className="flex ">
-          <div className="w-40.5 h-40.5 relative -top-20 -left-2 bg-amber-300 rounded-full" />
-          <div className="w-40.5 h-40.5  outline-2 outline-white bg-amber-300 rounded-full" />
+          <img
+            src="/images/person.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5 relative -top-15 left-10  bg-amber-300 rounded-full object-cover"
+          />
+          <img
+            src="/images/person2.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5  z-5 outline-5 outline-white bg-amber-300 rounded-full object-cover"
+          />
         </div>
         <div className="flex ">
-          <div className="w-40.5 h-40.5 relative -top-13 left-5 outline-2 outline-white bg-amber-300 rounded-full" />
-          <div className="w-40.5 h-40.5  outline-2 outline-white bg-amber-300 rounded-full" />
-        </div>
-        <div className="flex ">
-          <div className="w-40.5 h-40.5 relative -top-20 -left-3 outline-2 outline-white bg-amber-300 rounded-full" />
-          <div className="w-40.5 h-40.5  outline-white bg-amber-300 rounded-full" />
+          <img
+            src="/images/person2.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5 relative -top-20 -left-3 outline-2 outline-white bg-amber-300 rounded-full object-cover"
+          />
+          <img
+            src="/images/person.png"
+            alt="team member"
+            className="sm:w-40.5 w-30 h-30 sm:h-40.5  outline-white bg-amber-300 rounded-full object-cover"
+          />
         </div>
       </div>
     </div>
