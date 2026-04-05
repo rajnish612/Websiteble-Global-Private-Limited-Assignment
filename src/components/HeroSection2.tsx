@@ -6,7 +6,7 @@ export const HeroSection2 = () => {
       {/* Part1 */}
 
       <div className="w-full gap-y-4  flex flex-wrap  justify-evenly items-center">
-        <div className="md:max-w-lg lg:max-w-xl px-5 sm:max-w-md max-w-auto  justify-center items-center  gap-y-4  flex flex-col w-full">
+        <div className=" lg:max-w-2xl md:max-w-xl px-5 max-w-auto justify-center  items-center  gap-y-4  flex flex-col w-full">
           <img
             src="/public/images/Tomorrow should be better than today.png"
             alt="hero2"
@@ -143,7 +143,7 @@ export const HeroSection2 = () => {
           </div>
         </div>
 
-        <div className="md:max-w-lg lg:max-w-xl px-5 sm:max-w-md max-w-auto justify-center items-center  gap-y-4  flex flex-col w-full">
+        <div className=" lg:max-w-2xl md:max-w-xl px-5 max-w-auto justify-center  items-center  gap-y-4  flex flex-col w-full">
           <img
             src="/public/images/See how we can help you progress.png"
             alt="hero2"

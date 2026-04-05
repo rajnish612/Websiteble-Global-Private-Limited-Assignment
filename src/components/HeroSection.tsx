@@ -2,18 +2,30 @@ import React from "react";
 
 export const HeroSection: React.FC = () => {
   return (
-    <div className="flex justify-center  mt-20 items-center flex-col">
-      <div
-        style={{ fontFamily: "Gerbil" }}
-        className="flex relative md:text-7xl w-sm sm:w-md md:w-full px-5  max-w-2xl text-center  font-bold gap-x-4"
-      >
-        <img
-          src="/public/images/The thinkers and doers were changing the status Quo with.png"
-          alt="hero1"
-          className="w-full h-full object-cover"
-        />{" "}
+    <div className="flex justify-center   mt-20 items-center flex-col">
+      <div className="w-full relative  flex max-w-[80%]  justify-center flex-wrap-reverse">
+        <div
+          style={{ fontFamily: "Gerbil" }}
+          className="flex  relative md:text-7xl w-sm sm:w-md md:w-full px-5  max-w-2xl text-center  font-bold gap-x-4"
+        >
+          <img
+            src="/public/images/hero.png"
+            alt="hero1"
+            className="w-full h-full object-cover"
+          />{" "}
+        </div>
+        <svg
+          className="absolute h-10 md:h-20 lg:h-30 right-0  -z-10 "
+          viewBox="0 0 117 146"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M77.8783 -4.93067e-06C86.7352 5.11355 94.4983 11.9216 100.724 20.0353C106.95 28.149 111.517 37.4095 114.164 47.2882C116.811 57.1668 117.486 67.4701 116.151 77.6097C114.816 87.7494 111.497 97.5268 106.384 106.384C101.27 115.241 94.4622 123.004 86.3484 129.23C78.2347 135.455 68.9742 140.022 59.0955 142.669C49.2169 145.316 38.9136 145.992 28.774 144.657C18.6344 143.322 8.85694 140.003 -7.20974e-06 134.889L38.9391 67.4446L77.8783 -4.93067e-06Z"
+            fill="#934CEC"
+          />
+        </svg>
       </div>
-
       <div className="w-full relative flex-col flex justify-center items-center">
         <svg
           className="absolute h-20  md:h-40  left-0 -z-10 "
@@ -43,23 +55,14 @@ export const HeroSection: React.FC = () => {
             stroke-width="8"
           />
         </svg>
-        <div
-          style={{ fontFamily: "Satoshi" }}
-          className="flex mt-5   sm:max-w-md max-w-xs w-full  text-center justify-center items-center break-words  w-full  gap-x-4"
-        >
-          <span className="  md:max-w-max">
-            We are a team of strategists, designers communicators, researchers.
-            Togeather, we belive that progress only hghappens when you refuse to
-            play things safe.
-          </span>
-        </div>
       </div>
-      <div className="w-full mt-30 flex gap-y-25  items-center flex-wrap md:justify-around gap-x-10 md:gap-x-0 justify-center px-5">
+
+      <div className="w-full mt-40 flex gap-y-35  items-center flex-wrap md:justify-around gap-x-10 md:gap-x-0 justify-center px-5">
         <div className="flex ">
           <img
             src="/images/person.png"
             alt="team member"
-            className="sm:w-40.5 w-30 h-30 sm:h-40.5 bg-amber-300 rounded-full object-cover"
+            className="sm:w-40.5  w-30 h-30 sm:h-40.5 bg-amber-300 rounded-full object-cover"
           />
           <img
             src="/images/person2.png"
@@ -67,7 +70,7 @@ export const HeroSection: React.FC = () => {
             className="sm:w-40.5 w-30 h-30 sm:h-40.5 relative -top-10 right-15 outline-5 outline-white bg-amber-300 rounded-full object-cover"
           />
         </div>
-        <div className="flex sm:pt-20 pt-0"> 
+        <div className="flex sm:pt-20 pt-0">
           <img
             src="/images/person2.png"
             alt="team member"
