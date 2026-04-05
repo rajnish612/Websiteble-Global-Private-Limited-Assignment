@@ -10,7 +10,7 @@ const Testimonials = () => {
       transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
     >
       <motion.img
-        src="/public/images/image.png"
+        src="/images/image.png"
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.25 }}
       />
@@ -23,13 +23,13 @@ const Testimonials = () => {
       >
         <motion.img
           className="sm:w-sm w-xs  lg:w-auto"
-          src="/public/images/head.png"
+          src="/images/head.png"
           alt="Testimonial"
           whileHover={{ y: -3 }}
           transition={{ duration: 0.2 }}
         />
         <motion.img
-          src="/public/images/msg.png"
+          src="/images/msg.png"
           alt="Testimonial"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

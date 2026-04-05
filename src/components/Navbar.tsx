@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
       className="w-full flex items-center justify-between md:justify-evenly p-4 relative"
     >
       <motion.img
-        src="/public/images/Elementum.png"
+        src="/images/Elementum.png"
         alt="Elementum"
         className="h-5"
         whileHover={{ scale: 1.04, rotate: 1 }}

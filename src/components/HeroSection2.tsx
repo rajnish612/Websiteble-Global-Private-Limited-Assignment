@@ -28,7 +28,7 @@ export const HeroSection2 = () => {
           transition={{ duration: 0.7, delay: 0.05, ease: [0.22, 1, 0.36, 1] }}
         >
           <motion.img
-            src="/public/images/Tomorrow should be better than today.png"
+            src="/images/Tomorrow should be better than today.png"
             alt="hero2"
             className="md:w-full object-cover"
             whileHover={{ y: -4 }}
@@ -73,7 +73,7 @@ export const HeroSection2 = () => {
         >
           <div className="relative">
             <motion.img
-              src="/public/images/person.png"
+              src="/images/person.png"
               alt="hero2"
               className="max-w-60 md:max-w-sm md:w-full object-cover"
               whileHover={{ scale: 1.03 }}
@@ -186,7 +186,7 @@ export const HeroSection2 = () => {
               />
             </motion.svg>
             <motion.img
-              src="/public/images/person2.png"
+              src="/images/person2.png"
               alt="hero2"
               className=" max-w-60 md:max-w-sm md:w-full w-full object-cover"
               whileHover={{ scale: 1.03 }}
@@ -217,7 +217,7 @@ export const HeroSection2 = () => {
           transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
         >
           <motion.img
-            src="/public/images/See how we can help you progress.png"
+            src="/images/See how we can help you progress.png"
             alt="hero2"
             className="md:w-full object-cover"
             whileHover={{ y: -4 }}

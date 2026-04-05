@@ -82,7 +82,7 @@ const Footer = () => {
             </motion.svg>
           </div>
           <motion.img
-            src="/public/images/Subscribe to our newsletter.png"
+            src="/images/Subscribe to our newsletter.png"
             whileHover={{ y: -4 }}
             transition={{ duration: 0.2 }}
           />

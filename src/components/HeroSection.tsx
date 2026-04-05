@@ -93,7 +93,7 @@ export const HeroSection: React.FC = () => {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
           <motion.img
-            src="/public/images/hero.png"
+            src="/images/hero.png"
             alt="hero1"
             className="w-full h-full object-cover"
             whileHover={{ scale: 1.02 }}

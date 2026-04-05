@@ -5,15 +5,15 @@ const focusViewport = { once: false, amount: 0.35 };
 const serviceRows = [
   {
     title: "Office of multiple interest content",
-    image: "/public/images/Colaborative & partnership.png",
+    image: "/images/Colaborative & partnership.png",
   },
   {
     title: "The hanger US Air force digital experimental",
-    image: "/public/images/We talk about our weight.png",
+    image: "/images/We talk about our weight.png",
   },
   {
     title: "Office of multiple interest content",
-    image: "/public/images/Colaborative & partnership.png",
+    image: "/images/Colaborative & partnership.png",
   },
 ];
 
@@ -43,7 +43,7 @@ const Service = () => {
         >
           <div className="items-center gap-y-4 flex flex-col w-full">
             <motion.img
-              src="/public/images/heading.png"
+              src="/images/heading.png"
               alt="hero2"
               className="sm:w-md w-80 md:w-full object-cover"
               whileHover={{ y: -5 }}
