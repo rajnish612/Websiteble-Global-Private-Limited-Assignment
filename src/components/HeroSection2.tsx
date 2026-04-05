@@ -35,7 +35,7 @@ export const HeroSection2 = () => {
             transition={{ duration: 0.2 }}
           />
 
-          <span className="md:w-full">
+          <span style={{ fontFamily: "Satoshi" }} className="md:w-full">
             We are a team of strategists, designers communicators, researchers.
             Togeather, we belive that progress only happens when you refuse to
             play things safe.
@@ -157,7 +157,7 @@ export const HeroSection2 = () => {
       </motion.svg>
       {/* part2 */}
       <motion.div
-        className="w-full gap-y-4 flex flex-wrap-reverse justify-evenly items-center"
+        className="w-full gap-y-4 flex mt-10 flex-wrap-reverse justify-evenly items-center"
         initial={{ opacity: 0, y: 32 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={focusViewport}
@@ -224,7 +224,7 @@ export const HeroSection2 = () => {
             transition={{ duration: 0.2 }}
           />
 
-          <span className="md:w-full">
+          <span style={{ fontFamily: "Satoshi" }} className="md:w-full">
             We are a team of strategists, designers communicators, researchers.
             Togeather, we belive that progress only happens when you refuse to
             play things safe.

@@ -81,12 +81,12 @@ export const HeroSection: React.FC = () => {
       transition={{ duration: 0.6 }}
     >
       <motion.div
-        className="w-full relative flex max-w-[80%] justify-center flex-wrap-reverse"
+        className="w-full relative flex max-w-[90%] justify-center flex-wrap-reverse"
         {...reveal}
       >
         <motion.div
           style={{ fontFamily: "Gerbil" }}
-          className="flex relative md:text-7xl w-sm sm:w-md md:w-full px-5 max-w-2xl text-center font-bold gap-x-4"
+          className="flex relative md:text-7xl max-w-2xl  md:w-full   text-center font-bold gap-x-4"
           initial={{ opacity: 0, y: 30, scale: 0.96 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: false, amount: 0.3 }}
