@@ -229,16 +229,17 @@ export const HeroSection2 = () => {
             Togeather, we belive that progress only happens when you refuse to
             play things safe.
           </span>
+         
           <motion.div
             className="gap-x-2 w-full flex justify-start items-center"
             whileHover={{ x: 6 }}
             transition={{ duration: 0.2 }}
           >
-            <span className="w-full">Read more</span>
+            <span>Read more</span>
             <motion.svg
               className="mt-2"
               height="5"
-              viewBox="0 0 238 201"
+              viewBox="0 0 145 8"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               initial={{ x: -10, opacity: 0 }}
@@ -247,8 +248,8 @@ export const HeroSection2 = () => {
               transition={{ duration: 0.4, delay: 0.2 }}
             >
               <path
-                d="M118.646 0L237.291 200.25H3.05176e-05L118.646 0Z"
-                fill="#FF7171"
+                d="M144.354 4.03556C144.549 3.8403 144.549 3.52372 144.354 3.32845L141.172 0.146473C140.976 -0.0487893 140.66 -0.0487893 140.464 0.146473C140.269 0.341735 140.269 0.658318 140.464 0.85358L143.293 3.68201L140.464 6.51043C140.269 6.7057 140.269 7.02228 140.464 7.21754C140.66 7.4128 140.976 7.4128 141.172 7.21754L144.354 4.03556ZM0 3.68201V4.18201H144V3.68201V3.18201H0V3.68201Z"
+                fill="black"
               />
             </motion.svg>
           </motion.div>
