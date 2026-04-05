@@ -71,3 +71,19 @@ export default defineConfig([
   },
 ])
 ```
+
+## Docker
+
+Build the production image:
+
+```bash
+docker build -t websiteble-assignment .
+```
+
+Run the container:
+
+```bash
+docker run --rm -p 8080:80 websiteble-assignment
+```
+
+Open `http://localhost:8080` in your browser.
