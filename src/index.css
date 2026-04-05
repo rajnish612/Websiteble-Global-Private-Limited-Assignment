@@ -1,4 +1,15 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
 body {
   background-color: white;
+  overflow-x: clip;
+}
+
+#root {
+  overflow-x: clip;
 }

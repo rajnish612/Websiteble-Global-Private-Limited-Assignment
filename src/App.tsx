@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import HeroSection2 from "./components/HeroSection2";
@@ -8,13 +7,23 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <Navbar />
-      <HeroSection />
-      <HeroSection2 />
-      <Service />
-      <Testimonials />
-      <Footer />
+      <section id="home" className="scroll-mt-24">
+        <HeroSection />
+      </section>
+      <section id="studio" className="scroll-mt-24">
+        <HeroSection2 />
+      </section>
+      <section id="services" className="scroll-mt-24">
+        <Service />
+      </section>
+      <section id="faqs" className="scroll-mt-24">
+        <Testimonials />
+      </section>
+      <section id="contact" className="scroll-mt-24">
+        <Footer />
+      </section>
     </div>
   );
 };
